@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: com.psl.plugin.ui;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.psl.plugin.ui.Activator
+Bundle-Vendor: PACKTPUB
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,lib/jersey-bundle-1.19.jar,lib/jersey-client-1.19.jar,lib/jersey-core-1.19.jar
