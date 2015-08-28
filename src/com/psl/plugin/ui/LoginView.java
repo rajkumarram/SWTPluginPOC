@@ -131,9 +131,6 @@ public class LoginView {
 
 		try {
 
-			String input = "{\"username\":\"Metallica\",\"password\":\"FadeToBlack\",\"url\":\"defaultUrl\"}";
-			System.out.println(input);
-			
 			Client client = Client.create();
 			Form form = new Form();
 			form.add("username", username);
